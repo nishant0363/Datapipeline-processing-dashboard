@@ -1,4 +1,4 @@
-# 🌾 Agricultural Sensor Data Pipeline
+# 🌾 Agricultural Sensor Data Pipeline - Nishant - NIT SURAT
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![DuckDB](https://img.shields.io/badge/DuckDB-Latest-yellow.svg)](https://duckdb.org)
