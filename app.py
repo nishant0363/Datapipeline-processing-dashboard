@@ -84,17 +84,19 @@ with left_col:
         with open("pipeline_process.pdf", "rb") as f:
             base64_pdf = base64.b64encode(f.read()).decode('utf-8')
 
-        pdf_display = f"""
-        <iframe
-            src="data:application/pdf;base64,{base64_pdf}"
-            width="100%"
-            height="500"
-            type="application/pdf"
-            style="border: 1px solid #ccc; border-radius: 4px;"
-        ></iframe>
-        """
+        # pdf_display = f"""
+        # <iframe
+        #     src="data:application/pdf;base64,{base64_pdf}"
+        #     width="100%"
+        #     height="500"
+        #     type="application/pdf"
+        #     style="border: 1px solid #ccc; border-radius: 4px;"
+        # ></iframe>
+        # """
         st.markdown("### 📄 Complete Explanation of Pipeline")
-        st.markdown(pdf_display, unsafe_allow_html=True)
+        st.markdown("[🔗 View on GitHub](https://github.com/nishant0363/Datapipeline-processing-dashboard?tab=readme-ov-file#)")
+
+        # st.markdown(pdf_display, unsafe_allow_html=True)
 
 
 
