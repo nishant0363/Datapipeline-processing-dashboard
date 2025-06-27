@@ -19,7 +19,7 @@ MarkupSafe==2.1.5
 matplotlib==3.10.3
 munkres==1.1.4
 narwhals==1.44.0
-numpy==2.2.6
+numpy==1.26.4
 packaging==24.0
 pandas==2.2.2
 patsy==0.5.6
@@ -28,15 +28,13 @@ protobuf==6.31.1
 pyarrow==20.0.0
 pydeck==0.9.1
 pyparsing==3.1.2
-PySide6==6.9.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
 referencing==0.36.2
 requests==2.32.4
 rpds-py==0.25.1
-scipy==1.15.2
+scipy==1.13.1       
 seaborn==0.13.2
-shiboken6==6.9.1
 six==1.16.0
 smmap==5.0.2
 statsmodels==0.14.1
@@ -46,6 +44,5 @@ toml==0.10.2
 tornado==6.4
 typing_extensions==4.12.1
 tzdata==2024.1
-unicodedata2==15.1.0
 urllib3==2.2.1
 watchdog==6.0.0
